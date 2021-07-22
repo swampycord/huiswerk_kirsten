@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Magicball {
 
 	public static void main(String[] args) {
-		question();
-		getallen();
+// 		question();
+// 		getallen();
 		
 	}
 
@@ -41,8 +41,12 @@ public class Magicball {
 
 		int antwoord = scan.nextInt();
 
-		if (antwoord == 0 || antwoord == 1 || antwoord == 2 || antwoord == 3 || antwoord == 4 || antwoord == 5) {
-
+		if ((antwoord == 0) 
+		   || (antwoord == 1) 
+		   || (antwoord == 2) 
+		   || (antwoord == 3) 
+		   || (antwoord == 4) 
+		   || (antwoord == 5)) {
 			System.out.println("Je antwoord is waar");
 		} else {
 			System.err.println("Je antwoord is niet waar");
